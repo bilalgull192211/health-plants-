@@ -64,18 +64,12 @@ Now, switch to the **Termux app** on your phone.
     cd health-plants-
     ```
 
-4.  **Install tools (if you haven't already):**
-    ```bash
-    pkg install nodejs-lts
-    npm install -g firebase-tools
-    ```
-
-5.  **Install the app's dependencies:**
+4.  **Install the app's dependencies:**
     ```bash
     npm install
     ```
 
-6.  **Log in to Firebase (The Correct Way for Termux):**
+5.  **Log in to Firebase (The Correct Way for Termux):**
     ```bash
     firebase login --no-localhost
     ```
@@ -86,7 +80,7 @@ Now, switch to the **Termux app** on your phone.
     *   After you sign in, Google will show you a **verification code**. **Copy this code.**
     *   Go back to Termux and **paste the code** into the terminal. Press Enter.
 
-7.  **Deploy your app:**
+6.  **Deploy your app:**
     ```bash
     firebase deploy
     ```
